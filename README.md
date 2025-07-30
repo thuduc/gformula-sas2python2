@@ -7,9 +7,7 @@ The main differences between initial POC (https://github.com/thuduc/gformula-sas
 
 > you're a sas and python programming language expert. Think hard and convert the sas code as is, line by line, to its Python equivalence
 
-# summary of Claude Code session
-
-⏺ Summary
+# Summary of Claude Code session
 
   I've successfully converted the SAS GFORMULA macro to Python. Here's what was created:
 

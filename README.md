@@ -1,5 +1,7 @@
-# gformula-sas2python2
-The parametric g-formula SAS to Python code conversion using Claude Code
+# Proof-of-concept: SAS to Python migration using Claude Code
+GFORMULA-SAS (macro implementation the parametric g-formula in SAS) source repo is located at https://github.com/CausalInference/GFORMULA-SAS
+
+The main differences between initial POC (https://github.com/thuduc/gformula-sas2python) and this POC is we removed all documentation and provided Claude Code with a different prompt to compare the converted output Python code with the original one. It turns out that precise prompts against an existing codebase works better than having extra documents that do not contribute to the conversion context. 
 
 # this is the prompt we provide to Claude Code
 

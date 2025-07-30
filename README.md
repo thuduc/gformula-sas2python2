@@ -3,7 +3,7 @@ GFORMULA-SAS (macro implementation the parametric g-formula in SAS) source repo 
 
 The main differences between initial POC (https://github.com/thuduc/gformula-sas2python) and this POC is we removed all documentation and provided Claude Code with a different prompt to compare the converted output Python code with the original one. It turns out that precise prompts against an existing codebase works better than having extra documents that do not contribute to the conversion context. 
 
-# this is the prompt we provide to Claude Code
+# This is the prompt we provided to Claude Code
 
 > you're a sas and python programming language expert. Think hard and convert the sas code as is, line by line, to its Python equivalence
 
